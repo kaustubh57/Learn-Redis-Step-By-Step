@@ -15,19 +15,15 @@ https://www.udemy.com/learn-redis-step-by-step/
   - increment value by 1: `INCR key_name`
   - decrement value by 1: `DECR key_name`
   - create list: 
-    - `RPUSH key_name "value"`
-      - inserts value to the end of the list
-    - `LPUSH key_name "value"`
-      - inserts value to the beginning of the list
+    - `RPUSH key_name "value"` - inserts value to the end of the list
+    - `LPUSH key_name "value"` - inserts value to the beginning of the list
   - delete value from the list:
-    - `LPOP key_name`
-      - deletes value at the beginning
-    - `RPOP key_name`
-      - deletes value the the end
+    - `LPOP key_name` - deletes value at the beginning
+    - `RPOP key_name` - deletes value the the end
   - get value from list: `LRANGE key_name 0 -1`
   - create set: `RSADD key_name "value"`
   - get values from set: `SMEMBERS key_name`
-  - check (true/false) if set value exists: `SISMEMBERS key_name "value`
+  - check (true/false) if set value exists: `SISMEMBERS key_name "value"`
   - remove value from set: `SREM key_name "value"`
   - create sorted set: `ZADD key_name 1 "value"` (here 1 is score which is number)
   - get list of set: `ZRANGE key_name 0 -1`
