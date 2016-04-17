@@ -2,11 +2,9 @@
 
 https://www.udemy.com/learn-redis-step-by-step/
 
-- Start redis server
-  - .[REDIS_HOME]/srs/redis-server
+- **Start redis server** - .[REDIS_HOME]/srs/redis-server
 
-- Open redis command line
-  - .[REDIS_HOME]/srs/redis-cli
+- **Open redis command line** - .[REDIS_HOME]/srs/redis-cli
 
 - Redis commands (executed through redis cli):
   - insert data: `SET name "kaustubh"`
@@ -42,3 +40,14 @@ https://www.udemy.com/learn-redis-step-by-step/
   3. `Sets` - no order. no duplicates
   4. `Sorted Sets` - order provided by us. no duplicates
   5. `HashSet`
+
+## Redis tutorial
+- http://www.tutorialspoint.com/redis/index.htm
+
+## Jedis
+- **Example** - http://www.tutorialspoint.com/redis/redis_java.htm
+
+## Redisson
+- home - https://github.com/mrniko/redisson
+- wiki - https://github.com/mrniko/redisson/wiki
+- slack channel - https://gitter.im/mrniko/redisson
